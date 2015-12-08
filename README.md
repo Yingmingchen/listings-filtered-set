@@ -3,6 +3,7 @@
 A simple Node.js app using [Express](http://expressjs.com/) to provide an API endpoint that returns a filtered set of listings from the data stored in Postgres.
 
 Table creation: *create table listings_data (id integer, street text, status text, price integer, bedrooms integer, bathrooms integer, sqft integer, lat float8, lng float8)*
+
 Table import: *\copy listings_data FROM 'listings.csv' DELIMITER ',' CSV HEADER;*
 
 ## Running Locally
