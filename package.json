@@ -1,0 +1,20 @@
+{
+  "name": "listings-filtered-set",
+  "version": "1.0.0",
+  "description": "A simple web app with an API endpoint that returns a filtered set of listings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Yingming Chen",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "pg": "4.x",
+    "express": "^4.13.3",
+    "request": "^2.65.0"
+  }
+}
